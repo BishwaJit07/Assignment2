@@ -1,0 +1,189 @@
+:root{
+    --golden--:#FF900E;
+
+}
+
+*{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Work Sans', sans-serif;
+
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+/* p for all */
+.secondary-font{
+    font-weight: 500;
+font-size: 16px;
+color: #727272;
+}
+body{
+   background-color: white; 
+}
+.container{
+    background: rgba(255, 144, 14, 0.1);
+
+    width: 100%;
+    max-width: 1920px;
+
+   
+  
+}
+
+/* navigation menu */
+
+nav{
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+padding-top: 50px;
+}
+nav> ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+/* headings */
+.head{
+    
+    
+  
+  margin-top: 205px;
+  margin-left: 529px;
+  margin-right: 529px; 
+  
+  
+    
+}
+
+.head h1{
+   
+    font-size: 64px;
+}
+
+.head p{
+  
+    padding-bottom:35px ;
+    
+}
+/* ................
+                     buttons
+..................... */
+.primary-button{
+    font-size: 20px;
+    border: transparent;
+    border-radius: 10px ;
+    width: 180px;
+    height: 64px;
+    color: white;
+    background-color: var(--golden--);
+}
+
+
+.banner{
+    margin: 50px 240px 45px 240px;
+    width: 1440px;
+    height: 700px;
+}
+
+/* 2nd parts */
+.second-part{
+    display: flex;
+    
+    align-items: center;
+
+    margin-top:95px ;
+    margin-left: 301px;
+    }
+
+.team-img{
+    
+display: grid;
+grid-template-columns: repeat(2,1fr);
+gap: 24px;
+}
+
+.team-right{
+    width: 537px;
+    height: 304px;
+    margin-left: 73px;
+    
+}
+.team-right h2 ,p , button{
+    padding: 20px;
+}
+
+.ash{
+    color: #727272;
+}
+.gold{
+    color: var(--golden--);
+}
+
+/* third parts */
+
+.third-part{
+display: flex;
+width: 1440px;
+height: 1059px;
+
+margin:130px 0px 240px 240px  ;
+}
+
+.features-heading h1{
+    font-weight: 700;
+    font-size: 45px;
+
+    border-left:5px solid var(--golden--) ;
+    padding-bottom: 24px;
+}
+
+
+.all-features{
+    margin-top: 30px;
+    width: 586px;
+    height: 744px;
+  
+}
+.all-features > div{
+    margin: 20px;
+    padding: 30px;
+    padding-bottom: 10px;
+}
+
+   
+
+
+.experience{
+    margin-top: -100px;
+   
+    color: white;
+    background-color: var(--golden--);
+    font-weight: 700;
+    font-size: 65px;
+     border-radius: 8px;
+     border: transparent;
+}
+.experience h2{
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.experience p{
+
+    font-size: 20px;
+}
+/* fourth part facts */
+
+.facts{
+     margin-top: 115px;
+     margin-left: 240px;
+}
+
+.facts h3{
+    font-weight: 700;
+    font-size: 45px;
+}
+
