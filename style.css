@@ -306,7 +306,7 @@ margin: 20px 240px 216px 240px;
 
    .head ,
    .team-img ,.team-right, .third-part{
-    margin-left: 50px;
+    margin-left: 0;
     margin-right: 0;
     margin-top: 30px;
     width: 90%;
@@ -327,7 +327,7 @@ margin: 20px 240px 216px 240px;
 
    }
    .team-img  {
-    margin-left: 130px;
+  margin: auto;
     align-items: center;
    align-items: flex-start;
     display: flex;
