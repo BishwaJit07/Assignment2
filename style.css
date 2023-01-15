@@ -96,7 +96,8 @@ nav> ul{
 
 .banner{
     margin: 50px 240px 45px 240px;
-    width: 1440px;
+    width: 100%;
+    max-width: 1440px;
     height: 700px;
 }
 
@@ -172,8 +173,9 @@ width: 100%;
 
 
 .experience{
-    /* margin-top: -100px; */
-   
+    
+   margin-top: -50%;
+  
     color: white;
     background-color: var(--golden--);
     font-weight: 500;
@@ -210,23 +212,27 @@ width: 100%;
     display: flex;
     justify-content: space-evenly;
     text-align: center;
-    
+   
 }
 
 .workings>div{
     padding: 15px;
 border-radius: 5px;
     border: 1px solid var(--golden--);
+    transition: transform .5s ease-out;
 }
-
+.workings>div:hover{
+    transform: rotate(360deg);
+    border: 1px solid blue;
+}
 /* sponsors */
 
 .sponsors{
     margin-top: 180px;
     margin-left: 689px;
     margin-right: 689px;
-    width: 542px;
-    height: 129px; 
+    /* width: 542px;
+    height: 129px;  */
 text-align: center;
    
 }
@@ -238,6 +244,40 @@ text-align: center;
     margin: 50px 130px 240px 240px ;
 }
 
+/* extra part */
+
+
+.extra{
+    width: 100%;
+    max-width: 1250px;
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+    
+   
+    margin: 10px auto;
+    
+}
+
+.extra-colum{
+    width: 610px;
+    
+    margin: 0 96px;
+}
+.extra-title{
+    font-weight: 700;
+    font-size: 38px;
+    padding-bottom: 16px;
+}
+
+.extra-des{
+    padding-bottom: 16px;
+    font-size: 20px;
+}
+
+/* this is footer */
 footer{
     padding: 38px 410px;
     width: 1440px;
@@ -280,7 +320,7 @@ flex-direction: column;
 
 }   
 
-.features-left , .features-img ,.all-features{
+.features-left , .features-img ,.all-features, .sponsor-section{
     width: 100%;
    justify-content: center;
    }
@@ -297,7 +337,8 @@ flex-direction: column;
 }
 
 .facts, .sponsors{
-    margin-left: 10px;
+    margin-left: 5px;
+    margin-right: 0;
     text-align: center;
 }
 
@@ -310,4 +351,27 @@ flex-direction: column;
     margin-bottom: 10px;
 }
 
+.sponsors-logo{
+    margin: 20px 0;
+    gap: 40px;
+    align-items: center;
+}
+
+footer{
+    width: 100%;
+margin: 0;
+padding: 0 10%;
+}
+.extra{
+    width: 0%;
+    
+    flex-direction: column-reverse  
+    
+}
+
+.extra-colum{
+    width: 300px;
+    margin-bottom: 20px;
+
+}
    }
