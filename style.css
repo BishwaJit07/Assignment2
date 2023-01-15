@@ -65,7 +65,7 @@ nav> ul{
     
     
     text-align: center;
-  margin-top: 205px;
+  margin-top: 50px;
   margin-left: 529px;
   margin-right: 529px; 
   
@@ -300,18 +300,21 @@ margin: 20px 240px 216px 240px;
 @media screen and (max-width:576px) {
    nav{
     flex-direction: column;
+    width: 95%;
    }
 
    .head ,
    .team-img ,.team-right, .third-part{
     margin-left: 0;
     margin-right: 0;
-    width: 100%;
+    margin-top: 10px;
+    width: 90%;
    }
    .banner{
-    width: 100%;
+    width: 98%;
     height: 50%;
-    margin-left:0;
+    margin:0;
+    margin-top: 10px;
    }
    .second-part{
     justify-content: center;
@@ -331,13 +334,15 @@ margin: 20px 240px 216px 240px;
    }
 
 .third-part{
+  margin: 0;
+  margin-top: 20px;
 flex-direction: column;
 
 }   
 
 
 .features-left ,.all-features,.features-img, .sponsor-section{
-    width: 100%;
+    width: 95%;
    justify-content: center;
    margin: 0 10px;
    }
